@@ -23,17 +23,17 @@ export default function Footer() {
           <ul className="logoss">
             <li>
               <a href="#">
-                <img src={facebook} alt="facebook" />
+                <img src={facebook} alt="facebook" width={24} height={24} />
               </a>
             </li>
             <li>
               <a href="#">
-                <img src={twitter} alt="twitter" />
+                <img src={twitter} alt="twitter"  width={24} height={24}/>
               </a>
             </li>
             <li>
               <a href="#">
-                <img src={instagram} alt="instagram" />
+                <img src={instagram} alt="instagram"  width={24} height={24}/>
               </a>
             </li>
           </ul>
