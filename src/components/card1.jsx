@@ -1,20 +1,19 @@
 import React from "react";
 
-import headphone2 from '../assets/headphone2.png'
+import headphone1 from "../assets/headphone1.png";
 
-export default function XX992() {
+export default function Card1() {
   return (
-    <section className="product container ">
+    <section className="card1 container">
       <img
-        src={headphone2}
-        alt="product photo"
+        src={headphone1}
+        alt="card1"
         width={540}
         height={560}
-        className="proPhoto"
       />
       <div className="info">
         <span className="new">NEW PRODUCT</span>
-        <h2 className="nameOfProduct">XX99 Mark II Headphones</h2>
+        <h2 className="cardName">XX99 Mark II Headphones</h2>
         <p className="text">
           The new XX99 Mark II headphones is the pinnacle of pristine audio. It
           redefines your premium headphone experience by reproducing the

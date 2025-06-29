@@ -4,9 +4,9 @@ import people from "../assets/people.png";
 
 export default function About() {
   return (
-    <section className="sectionAbout container">
-      <div className="infoAbout">
-        <h2 className="about">Bringing you the <span className="aboutSpan">best</span> audio gear</h2>
+    <section className="Aboutsection container">
+      <div className="Aboutinfo">
+        <h2 className="about">Bringing you the <span className="aboutspan">best</span> audio gear</h2>
         <p className="aboutText">
           Located at the heart of New York City, Audiophile is the premier store
           for high end headphones, earphones, speakers, and audio accessories.
@@ -16,7 +16,7 @@ export default function About() {
           best place to buy your portable audio equipment.
         </p>
       </div>
-      <img src={people} alt="person" width={540} height={588} />
+      <img src={people} alt="people" width={540} height={588} />
     </section>
   );
 }

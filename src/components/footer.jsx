@@ -1,8 +1,8 @@
 import React from "react";
 
-import face from "../assets/facebook.png";
+import facebook from "../assets/facebook.png";
 import twitter from "../assets/twitter.png";
-import inst from "../assets/instagram.png";
+import instagram from "../assets/instagram.png";
 import Navbar from "./navbar";
 
 export default function Footer() {
@@ -11,7 +11,7 @@ export default function Footer() {
       <div className="container">
         <Navbar></Navbar>
         <div className="footer">
-          <div className="footerText">
+          <div className="Textfooter">
             <p>
               Audiophile is an all in one stop to fulfill your audio needs.
               We're a small team of music lovers and sound specialists who are
@@ -20,10 +20,10 @@ export default function Footer() {
             </p>
             <p>Copyright 2021. All Rights Reserved</p>
           </div>
-          <ul className="logos">
+          <ul className="logoss">
             <li>
               <a href="#">
-                <img src={face} alt="facebook" />
+                <img src={facebook} alt="facebook" />
               </a>
             </li>
             <li>
@@ -33,7 +33,7 @@ export default function Footer() {
             </li>
             <li>
               <a href="#">
-                <img src={inst} alt="instagram" />
+                <img src={instagram} alt="instagram" />
               </a>
             </li>
           </ul>

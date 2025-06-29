@@ -1,7 +1,7 @@
 import React from "react";
-import XX59 from "./x59";
-import XX991 from "./xx99-1";
-import XX992 from "./xx99-2";
+import XX59 from "./card3";
+import XX991 from "./card1";
+import XX992 from "./card2";
 import About from "./about";
 
 export default function () {

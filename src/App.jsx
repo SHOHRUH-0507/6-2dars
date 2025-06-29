@@ -2,23 +2,21 @@
 
 import React from "react";
 import Header from "./components/header";
-import Hero from "./components/hero";
 import About from "./components/about";
-import X59 from "./components/x59";
-import XX99_1 from "./components/xx99-1";
-import XX99_2 from "./components/xx99-2";
 import Footer from "./components/footer";
+import Card1 from "./components/card1";
+import Card2 from "./components/card2";
+import Card3 from "./components/card3";
 
 export default function App() {
   return (
     <div>
-      <Header />
-      <Hero />
-      <XX99_1 />
-      <XX99_2 />
-      <X59 />
-      <About />
-      <Footer />
+      <Header></Header>
+      <Card1></Card1>
+      <Card2></Card2>
+      <Card3></Card3>
+      <About></About>
+      <Footer ></Footer>
     </div>
   );
 }
